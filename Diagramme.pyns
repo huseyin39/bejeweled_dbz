@@ -1,0 +1,35 @@
+# PynSource Version 1.1
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin.'}
+{'type':'umlshape', 'id':'Bonbon', 'x':252, 'y':146, 'width':177, 'height':229, 'attrs':'x|y|_grille', 'meths':'__init__|__str__|coords|test_alignement_gauche|test_alignement_droite|test_alignement_haut|test_alignement_bas|car'}
+{'type':'umlshape', 'id':'Bonbon4', 'x':138, 'y':21, 'width':87, 'height':83, 'attrs':'', 'meths':'__init__|car'}
+{'type':'umlshape', 'id':'Bonbon7', 'x':27, 'y':29, 'width':87, 'height':83, 'attrs':'', 'meths':'__init__|car'}
+{'type':'umlshape', 'id':'Bonbon6', 'x':10, 'y':133, 'width':87, 'height':83, 'attrs':'', 'meths':'__init__|car'}
+{'type':'umlshape', 'id':'Bonbon1', 'x':263, 'y':10, 'width':87, 'height':83, 'attrs':'', 'meths':'__init__|car'}
+{'type':'umlshape', 'id':'Bonbon3', 'x':391, 'y':26, 'width':87, 'height':83, 'attrs':'', 'meths':'__init__|car'}
+{'type':'umlshape', 'id':'Bonbon2', 'x':452, 'y':159, 'width':87, 'height':83, 'attrs':'', 'meths':'__init__|car'}
+{'type':'umlshape', 'id':'Bonbon5', 'x':77, 'y':229, 'width':87, 'height':83, 'attrs':'', 'meths':'__init__|car'}
+{'type':'umlshape', 'id':'Grille', 'x':651, 'y':392, 'width':248, 'height':525, 'attrs':'__n|__m|__p|grille|grille_annexe|score|aides_restantes|niveau|niv_dic', 'meths':'__init__|__str__|bouger|explose|explose_bis|dimension|remplir|test_deja_alignement|test_possibilite|echange|randombonbon|liste_explosesuper|Superoupas|newliste_explose'}
+{'type':'umlshape', 'id':'BonbonSuper', 'x':54, 'y':335, 'width':131, 'height':83, 'attrs':'', 'meths':'__init__|car'}
+{'type':'umlshape', 'id':'BonbonNoir', 'x':490, 'y':44, 'width':120, 'height':83, 'attrs':'', 'meths':'__init__|car'}
+{'type':'umlshape', 'id':'BonbonGenial', 'x':471, 'y':298, 'width':142, 'height':83, 'attrs':'', 'meths':'__init__|car'}
+{'type':'umlshape', 'id':'IHM', 'x':1024, 'y':117, 'width':263, 'height':417, 'attrs':'ui|grille|score|bonbons_choisis|icone_dic', 'meths':'__init__|reset|refresh_grille|icone|bouton_clique|mouvement|aide_moi'}
+{'type':'umlshape', 'id':'QtGui.QMainWindow', 'x':1297, 'y':30, 'width':197, 'height':31, 'attrs':'', 'meths':''}
+{'type':'umlshape', 'id':'Ui_MainWindow', 'x':1449, 'y':200, 'width':153, 'height':31, 'attrs':'', 'meths':''}
+{'type':'umlshape', 'id':'object', 'x':1347, 'y':490, 'width':76, 'height':31, 'attrs':'', 'meths':''}
+{'type':'edge', 'id':'Bonbon4_to_Bonbon', 'source':'Bonbon4', 'target':'Bonbon', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'Bonbon7_to_Bonbon', 'source':'Bonbon7', 'target':'Bonbon', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'Bonbon6_to_Bonbon', 'source':'Bonbon6', 'target':'Bonbon', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'Bonbon1_to_Bonbon', 'source':'Bonbon1', 'target':'Bonbon', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'Bonbon3_to_Bonbon', 'source':'Bonbon3', 'target':'Bonbon', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'Bonbon2_to_Bonbon', 'source':'Bonbon2', 'target':'Bonbon', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'Bonbon5_to_Bonbon', 'source':'Bonbon5', 'target':'Bonbon', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'Bonbon_to_Grille', 'source':'Bonbon', 'target':'Grille', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'Grille_to_Bonbon', 'source':'Grille', 'target':'Bonbon', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'BonbonSuper_to_Bonbon', 'source':'BonbonSuper', 'target':'Bonbon', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'BonbonNoir_to_Bonbon', 'source':'BonbonNoir', 'target':'Bonbon', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'BonbonGenial_to_Bonbon', 'source':'BonbonGenial', 'target':'Bonbon', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'IHM_to_QtGui.QMainWindow', 'source':'IHM', 'target':'QtGui.QMainWindow', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'Ui_MainWindow_to_IHM', 'source':'Ui_MainWindow', 'target':'IHM', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Ui_MainWindow_to_object', 'source':'Ui_MainWindow', 'target':'object', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'IHM_to_Grille', 'source':'IHM', 'target':'Grille', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'Grille_to_IHM', 'source':'Grille', 'target':'IHM', 'uml_edge_type':'generalisation'}
